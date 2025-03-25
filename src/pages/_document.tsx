@@ -1,8 +1,10 @@
-import { Html, Head, Main, NextScript } from "next/document";
+// pages/_document.tsx
+import { Html, Head, Main, NextScript } from 'next/document';
+import { FC } from 'react';
 
-export default function Document() {
+const Document: FC = () => {
   return (
-    <Html lang="en">
+    <Html lang="ja">
       <Head />
       <body className="antialiased">
         <Main />
@@ -10,4 +12,6 @@ export default function Document() {
       </body>
     </Html>
   );
-}
+};
+
+export default Document;

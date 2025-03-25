@@ -1,5 +1,9 @@
+// pages/index.tsx
+import { FC } from 'react';
 import Home from '../pages/Home';
 
-export default function IndexPage() {
+const IndexPage: FC = () => {
   return <Home />;
-}
+};
+
+export default IndexPage;
