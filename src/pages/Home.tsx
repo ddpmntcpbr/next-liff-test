@@ -32,7 +32,7 @@ const Home: FC = () => {
   };
 
   return (
-    <Box display="flex" flexDirection="column" height="100vh" bgcolor="white">
+    <Box display="flex" flexDirection="column" height="98vh" bgcolor="#f5f5f5">
       <Box flexGrow={1} overflow="auto">
         <Container>{renderContent()}</Container>
       </Box>
